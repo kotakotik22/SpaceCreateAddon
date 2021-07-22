@@ -20,7 +20,7 @@ import org.apache.logging.log4j.Logger;
 public class CreateAddon {
 
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger(BuildConfig.MODID);
+    public static final Logger LOGGER = LogManager.getLogger(BuildConfig.MODID);
     public static IEventBus modEventBus;
 
     public static final NonNullLazyValue<CreateRegistrate> registrate = CreateRegistrate.lazy(BuildConfig.MODID);
