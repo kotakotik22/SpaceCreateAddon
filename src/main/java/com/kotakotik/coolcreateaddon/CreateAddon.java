@@ -1,9 +1,10 @@
-package mod.yourname.yourmodid;
+package com.kotakotik.coolcreateaddon;
 
-import mod.yourname.yourmodid.register.*;
+import com.kotakotik.coolcreateaddon.register.*;
+import com.kotakotik.coolcreateaddon.register.config.ModConfigs;
+import mod.kotakotik.coolcreateaddon.BuildConfig;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.repack.registrate.util.NonNullLazyValue;
-import mod.yourname.yourmodid.register.config.ModConfigs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DatagenModLoader;
@@ -15,7 +16,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// TODO: rename this class! and package name! package name should be mod.yourname.modid, see import of BuildConfig class
 @Mod(BuildConfig.MODID)
 public class CreateAddon {
 

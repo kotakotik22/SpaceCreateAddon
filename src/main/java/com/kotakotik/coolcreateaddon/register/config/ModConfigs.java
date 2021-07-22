@@ -1,4 +1,4 @@
-package mod.yourname.yourmodid.register.config;
+package com.kotakotik.coolcreateaddon.register.config;
 
 import com.simibubi.create.foundation.config.ConfigBase;
 import net.minecraftforge.common.ForgeConfigSpec;

@@ -1,12 +1,11 @@
-package mod.yourname.yourmodid.register.config;
+package com.kotakotik.coolcreateaddon.register.config;
 
 import com.simibubi.create.foundation.config.ui.BaseConfigScreen;
 import com.simibubi.create.foundation.gui.AbstractSimiScreen;
 import com.simibubi.create.foundation.gui.ScreenOpener;
 import com.simibubi.create.foundation.gui.TextStencilElement;
 import com.simibubi.create.foundation.gui.widgets.BoxWidget;
-import mod.yourname.yourmodid.BuildConfig;
-import mod.yourname.yourmodid.CreateAddon;
+import mod.kotakotik.coolcreateaddon.BuildConfig;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.Widget;

@@ -1,4 +1,4 @@
-package mod.yourname.yourmodid.register;
+package com.kotakotik.coolcreateaddon.register;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
 
